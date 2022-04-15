@@ -6,7 +6,7 @@
         <button @click="getInHello">跳转到Hello页面</button>
       </div>
       <div>
-        <span>计数：{{userStore.count}}</span>
+        <span>计数：{{ userStore.count }}</span>
         <button @click="userStore.add">+1</button>
       </div>
     </div>
@@ -15,10 +15,10 @@
 
 <script setup lang="ts">
 import { useRouter } from "vue-router";
-import {useUserStore} from "../store";
+import { useUserStore } from "../store";
 
 const router = useRouter();
-const userStore=useUserStore()
+const userStore = useUserStore();
 
 function getInHello() {
   router.push({
