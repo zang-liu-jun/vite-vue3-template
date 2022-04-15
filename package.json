@@ -22,7 +22,6 @@
       "git add"
     ]
   },
-
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",

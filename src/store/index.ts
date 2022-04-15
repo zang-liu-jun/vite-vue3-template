@@ -1,15 +1,15 @@
 import { defineStore } from "pinia";
 
-export const useUserStore=defineStore("user",{
-  state(){
+export const useUserStore = defineStore("user", {
+  state() {
     return {
-      username:"小臧",
-      count:0
-    }
+      username: "小臧",
+      count: 0,
+    };
   },
-  actions:{
-    add(){
-      this.count++
-    }
-  }
-})
+  actions: {
+    add() {
+      this.count++;
+    },
+  },
+});
